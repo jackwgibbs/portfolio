@@ -1,0 +1,44 @@
+#content{
+    width:90%;
+    height:90%;
+    left:5%;
+    top:5%;
+    position:absolute;
+    display: block;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+#split{
+    max-width:100%;
+    max-height:100%;
+    position:relative;
+    height:100%;
+}
+
+#left{
+
+    max-width:40%;
+    position:relative;
+    float:left;
+
+}
+
+#right{
+    height:90%;
+    width:60%;
+    position:relative;
+    float:right;
+}
+
+*{
+    font-family:monaco;
+}
+
+.rightpane{
+    left:50px;
+    position:relative;
+}
