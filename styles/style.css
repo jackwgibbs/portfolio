@@ -10,6 +10,12 @@
 img{
     max-width:100%;
     max-height:100%;
+    border-radius: 10px;
+}
+
+img:hover{
+    max-width:101%;
+    max-height:101%
 }
 
 #split{
@@ -38,7 +44,47 @@ img{
     font-family:monaco;
 }
 
+body{
+    background-color: #d6d2cf;
+}
+
 .rightpane{
     left:50px;
     position:relative;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  left:50px;
+  position:relative;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d62976;
+  color: white;
+}
+
+.fa-github {
+  background:  #171515;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
